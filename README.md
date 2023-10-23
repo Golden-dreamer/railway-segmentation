@@ -11,6 +11,8 @@ Appropriate metric for this type of problem is IoU (intersection over Union),
 since I care about matching pixel with rails.
 Loss function is Jaccard index (it is the same as IoU, perfect function for this problem).
 
-# Reults
+# Results
 IoU score is about 0.80. Without any augmentation (used augmentation for more lighter model, but score was lower), and openCV tricks( more discussed about them in summary in notebook).
 ![ScreenShot](images/model_learning.gif)
+
+more information inside notebook
